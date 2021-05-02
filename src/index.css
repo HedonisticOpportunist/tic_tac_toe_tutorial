@@ -1,0 +1,58 @@
+@fontface {
+  font-family: 'Original Surfer', cursive;
+  src: url('https://fonts.googleapis.com/css2?family=Original+Surfer&display')
+}
+
+body, html {
+  font-family: 'Original Surfer', cursive;
+  background-color: '#f6e6cb';
+  color: '#4682b4';
+  height: 100%;
+  width: 100%;
+}
+
+ol, ul {
+  padding-left: 30px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.square {
+  background: #00ff7f;
+  border: 1px solid #583d72;
+  float: left;
+  font-size: 10px;
+  font-weight: italic;
+  line-height: 84px;
+  height: 84px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 84px;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #77acf1;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
